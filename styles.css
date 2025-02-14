@@ -199,15 +199,6 @@ section#contact .contact-card p {
 
 
 
-#Sam {
-  width: 50%; 
-  height: 50%; 
-  object-fit: cover; 
-  transition: transform 0.5s ease;
-}
-
-
-
 
 /* Responsive */
 @media (max-width: 768px) {
