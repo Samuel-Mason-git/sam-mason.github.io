@@ -198,6 +198,26 @@ section#contact .contact-card p {
 }
 
 
+.image-container {
+  width: 200px; 
+  height: 200px;
+  overflow: hidden; /
+  border-radius: 50%; 
+  position: relative;
+}
+
+#Sam {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  transition: transform 0.5s ease; 
+}
+
+.image-container:hover #Sam {
+  transform: scale(1.2); 
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
     header nav ul {
